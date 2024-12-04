@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website with Shortcut Keys</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main Page Content -->
+    <header>
+      <div class="navbar">
+        <h1>My Awesome Website</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="content">
+      <h2>Welcome to My Website!</h2>
+      <p>This is a demo page that shows how to implement keyboard shortcuts.</p>
+      <p>
+        Press <code>Ctrl + /</code> to view the list of keyboard shortcuts
+        available on this site.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 My Awesome Website</p>
+    </footer>
+
+    <!-- Shortcut key modal -->
+    <div id="shortcutModal" class="modal">
+      <div class="modal-content">
+        <h2>Keyboard Shortcuts</h2>
+        <ul>
+          <li><strong>Ctrl + /</strong> - Show keyboard shortcuts</li>
+          <li><strong>Ctrl + S</strong> - Save</li>
+          <li><strong>Ctrl + P</strong> - Print</li>
+          <li><strong>Ctrl + F</strong> - Find</li>
+        </ul>
+        <button id="closeModal">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
