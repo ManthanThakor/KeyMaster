@@ -119,8 +119,8 @@ body {
   position: relative;
   width: 223px !important;
   height: 470px !important;
-  object-fit: contain !important; /* Ensures the image fits inside the container */
-  object-position: center; /* Centers the image */
+  object-fit: contain !important;
+  object-position: center;
   border-radius: 2ch;
   left: 8px;
   top: 8px;
@@ -147,7 +147,7 @@ body {
     to bottom right,
     var(--primary),
     var(--secondary)
-  );
+  ) !important;
   border-radius: 15px;
   transition: 0.5s;
 }
@@ -164,5 +164,5 @@ body {
 }
 
 .screenshot-carousel .owl-dot.active {
-  box-shadow: 0 0 10px var(--dark);
+  box-shadow: 0 0 10px var(--dark) !important;
 }
