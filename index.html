@@ -5,49 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website with Shortcut Keys</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/cb104e752f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css"
+    />
   </head>
   <body>
-    <!-- Main Page Content -->
-    <header>
-      <div class="navbar">
-        <h1>My Awesome Website</h1>
-        <nav>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+    <div class="container">
+      <div class="content">
+        <h1>Unlock Keyboard Efficiency</h1>
+        <div class="features">
+          <div class="feature">
+            <i class="fas fa-bolt"></i>
+            <p>Master Your Keyboard Shortcuts</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-star"></i>
+            <p>Boost Efficiency with Key Shortcuts Easily</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-sync-alt"></i>
+            <p>Transform Productivity with Key Master</p>
+          </div>
+        </div>
+        <div class="buttons">
+          <a class="btn-primary" href="#">Discover More Shortcuts</a>
+          <a class="btn-secondary" href="#"
+            >Get Started Now<i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
       </div>
-    </header>
 
-    <section class="content">
-      <h2>Welcome to My Website!</h2>
-      <p>This is a demo page that shows how to implement keyboard shortcuts.</p>
-      <p>
-        Press <code>Ctrl + /</code> to view the list of keyboard shortcuts
-        available on this site.
-      </p>
-    </section>
-
-    <footer>
-      <p>&copy; 2024 My Awesome Website</p>
-    </footer>
-
-    <!-- Shortcut key modal -->
-    <div id="shortcutModal" class="modal">
-      <div class="modal-content">
-        <h2>Keyboard Shortcuts</h2>
-        <ul>
-          <li><strong>Ctrl + /</strong> - Show keyboard shortcuts</li>
-          <li><strong>Ctrl + S</strong> - Save</li>
-          <li><strong>Ctrl + P</strong> - Print</li>
-          <li><strong>Ctrl + F</strong> - Find</li>
-        </ul>
-        <button id="closeModal">Close</button>
+      <div class="mobile-img-sec">
+        <div class="owl-carousel screenshot-carousel">
+          <img class="img-fluid" src="img/screenshot-1.png" alt="" />
+          <img class="img-fluid" src="img/screenshot-2.png" alt="" />
+          <img class="img-fluid" src="img/screenshot-3.png" alt="" />
+          <img class="img-fluid" src="img/screenshot-4.png" alt="" />
+          <img class="img-fluid" src="img/screenshot-5.png" alt="" />
+        </div>
       </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
