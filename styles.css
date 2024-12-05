@@ -119,8 +119,8 @@ body {
   position: relative;
   width: 223px !important;
   height: 470px !important;
-  object-fit: contain !important;
-  object-position: center;
+  object-fit: cover !important;
+  object-position: center !important;
   border-radius: 2ch;
   left: 8px;
   top: 8px;
