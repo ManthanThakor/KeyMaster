@@ -93,8 +93,11 @@ body {
   }
 }
 
-/*** Screenshot ***/
-.screenshot-carousel {
+/*==================*/
+/*---Keyboard-img ---*/
+/*==================*/
+
+.keyboard-carousel {
   position: relative;
   width: 246px !important; /* Carousel container width */
   height: 479px !important; /* Carousel container height */
@@ -103,19 +106,19 @@ body {
   object-position: cover;
 }
 
-.screenshot-carousel::before {
+.keyboard-carousel::before {
   position: absolute;
   content: "";
   width: 100% !important;
   height: 100% !important;
   top: 0;
   left: 0;
-  background: url(img/header-sec/screenshot-frame.png) center center no-repeat;
+  background: url(img/header-sec/keyboard-frame.png) center center no-repeat;
   background-size: 253px 500px;
   z-index: 1;
 }
 
-.screenshot-carousel .owl-item img {
+.keyboard-carousel .owl-item img {
   position: relative;
   width: 223px !important;
   height: 470px !important;
@@ -126,7 +129,11 @@ body {
   top: 8px;
 }
 
-.screenshot-carousel .owl-dots {
+/*==================*/
+/*---carousel Dot---*/
+/*==================*/
+
+.keyboard-carousel .owl-dots {
   position: absolute;
   top: 50%;
   right: -30px;
@@ -137,7 +144,7 @@ body {
   justify-content: center;
 }
 
-.screenshot-carousel .owl-dot {
+.keyboard-carousel .owl-dot {
   position: relative;
   display: inline-block;
   margin: 5px 0;
@@ -152,7 +159,7 @@ body {
   transition: 0.5s;
 }
 
-.screenshot-carousel .owl-dot::after {
+.keyboard-carousel .owl-dot::after {
   position: absolute;
   content: "";
   width: 5px;
@@ -163,6 +170,6 @@ body {
   border-radius: 5px;
 }
 
-.screenshot-carousel .owl-dot.active {
+.keyboard-carousel .owl-dot.active {
   box-shadow: 0 0 10px var(--dark) !important;
 }
