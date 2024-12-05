@@ -110,7 +110,7 @@ body {
   height: 100% !important;
   top: 0;
   left: 0;
-  background: url(img/screenshot-frame.png) center center no-repeat;
+  background: url(img/header-sec/screenshot-frame.png) center center no-repeat;
   background-size: 253px 500px;
   z-index: 1;
 }
