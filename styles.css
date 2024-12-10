@@ -189,11 +189,13 @@ body {
 /*==================*/
 /*---Spline 3d Robot---*/
 /*==================*/
-
-body {
-  margin: 0;
-  overflow: hidden;
+.robot-sec-key {
+  height: 600px;
 }
 canvas {
-  display: block;
+  display: block; /* Ensures the canvas fills the entire screen */
+}
+
+.spline-watermark {
+  display: none !important;
 }
