@@ -185,3 +185,15 @@ body {
 .keyboard-carousel .owl-dot.active {
   box-shadow: 0 0 10px var(--dark) !important;
 }
+
+/*==================*/
+/*---Spline 3d Robot---*/
+/*==================*/
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
